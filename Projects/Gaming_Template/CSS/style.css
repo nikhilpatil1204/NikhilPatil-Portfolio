@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #d3d3d3;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+/* Hero section */
+.banner {
+    background: url('../Images/Background/hero-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: fantasy;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.title {
+    font-size: 4rem;
+}
+.navigation {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Game Feature Section */
+.hero-container{
+    font-family:cursive;
+}
+
+/* New game Section */
+.new-game-container{
+    font-family:cursive;
+}
+
+/* Magician Section */
+.magician-container{
+    font-family:cursive;
+}
+
+/* Review Section */
+.review-container{
+    font-family:cursive;
+}
+
+/* Newsletter Section */
+.newsletter-section{
+    font-family: cursive;
+}
+.news-section{
+    background-image: url(../Images/Background/news-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Footer */
+.footer {
+    font-family: cursive;
+    background-image: url(../Images/Background/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; background-size: cover;
+    padding: 20px 0;
+    position: relative;
+}
+.footer nav a {
+    text-decoration: none;
+}
+.footer nav a:hover {
+    text-decoration: underline;
+}
+

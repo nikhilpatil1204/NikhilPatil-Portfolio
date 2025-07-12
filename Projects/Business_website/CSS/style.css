@@ -1,0 +1,854 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 160vh;
+    background-image: url(../Images/Background/backgroun-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.webify-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.webify-button:hover {
+    background-color: lightgray;
+}
+
+.menu-button{
+    background-color: none;
+}
+
+.hero-section{
+    width: 100%;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.hero-content{
+    padding: 0 15px;
+    color: white;
+    text-align: center;
+
+}
+
+.hero-content p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about-us-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.about-us-btn:hover{
+    background-color:darkred;
+}
+
+.services-section{
+    width: 100%;
+    color: white;
+}
+
+.services-container{
+    text-align: center;
+}
+
+.service-box img{
+    padding-bottom: 5px;
+}
+.service-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 50px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    padding:0 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    padding:0 20px;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    height: 50vh;
+    margin: 10px;
+    background-image: url(../Images/Background/team-members.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.award-section{
+    width: 100%;
+    
+}
+.award-card {
+    margin: 50px 15px;
+    background: white;
+    padding: 10px;
+    border: 1px solid rgb(205, 202, 202);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1{
+    height: 130vh;
+    margin: 20px;
+    background-image: url(../Images/Background/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay-item{
+    margin: 20px;
+}
+
+.overlay-item h2{
+    font-size: 2em;
+}
+
+.overlay-item h3{
+    font-size: 1.3em;
+}
+
+.overlay-item a{
+    color: white;
+    font-size: 20px;
+}
+
+.hero {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.hero h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #666;
+    max-width: 250px;
+    margin: 0 auto 20px;
+}
+
+.contact-btn {
+    background-color: #ff3366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #cc2a55;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card h2:hover{
+    color: #ff3366;
+}
+.learn-more {
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+}
+
+.learn-more:hover{
+    color: #ff3366;
+}
+
+.gallery-container{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.gallery-container h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.gallery-container p {
+    color: #555;
+    font-size: 18px;
+}
+
+.gallery-navbar{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.filter {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.filter.active {
+    background: black;
+    color: white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.gallery-card {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 200px;
+}
+
+.gallery-card h3 {
+    margin: 10px 0 5px;
+}
+
+.gallery-card p {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.stats-section {
+    width: 100%;
+    background: url('../Images/Background/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72vh;
+    color: white;
+}
+
+.stat-box {
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.stat-box h2 {
+    margin: 0;
+    font-size: 2em;
+}
+.stat-box p {
+    margin: 5px 0 0;
+    font-size: 1em;
+}
+
+.team-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.team-section p {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+}
+
+.team-info {
+    padding-bottom: 15px;
+}
+
+.team-info h3 {
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+.team-info p {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #0077b6;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+
+.hero1 {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('../Images/Background/team-members.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero1-content {
+    position: relative;
+    color: #fff;
+    max-width: 700px;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+}
+
+.hero1-content .subheading {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.hero1-content h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.hero1-content p{
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff3366;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff0044;
+}
+
+.blog-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.blog-section h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    color: rgb(147, 145, 145);
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    position: relative;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+
+.blog-content h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.blog-content p {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+
+.footer {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    position: relative;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.footer-content p {
+    color: gray;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.social-icons span {
+    margin: 0 8px;
+    color: lightgray;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.newsletter {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+    outline: none;
+}
+
+.newsletter button {
+    background: #ff3366;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+
+@media(min-width:768px){
+    .nav{
+        height: 120vh;
+    }
+    .hero-content{
+        padding:0 35px 0 70px;    
+    }
+    .hero-content h2{
+        padding-right: 100px;
+    }
+    .services-container{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service-box{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .service-box h3 {
+        font-size: 25px;
+    }
+    .service-box p {
+        font-size: 18px;
+    }
+    .container h1 {
+        padding: 0 200px;
+        font-size: 25px;
+    }
+    .container p {
+        padding: 0 110px;
+        font-size: 18px;
+    }
+    .awards-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .award-card {
+        width: 30%;
+        height: auto;
+    }
+    .container1{
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .overlay{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .overlay-item{
+        width: 40%;
+    }
+    .overlay-item h2{
+        font-size: 2.2em;
+    }
+    .hero {
+        margin: 50px 0;
+    }
+    .hero h1 {
+        font-size: 25px;
+    }  
+    .hero p {
+        max-width: 500px;
+        font-size: 18px;
+    }  
+    .cards-container{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }  
+    .card h2 {
+        font-size: 18px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    .learn-more{
+        font-size: 15px;
+    }
+    .gallery-container h1 {
+        font-size: 25px;
+    }
+    
+    .gallery-container p {
+        font-size: 18px;
+    }
+
+    .stats-section {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stats-container{
+        display: flex;
+    }
+    .stat-box h2 {
+        font-size: 2.2em;
+    }
+    .stat-box p {
+        font-size: 1.2em;
+    }
+    .team-section h2 {
+        font-size: 25px;
+    }  
+    .team-section p {
+        font-size: 18px;
+    }
+    .team-info h3 {
+        font-size: 18px;
+    }
+    .team-info p {
+        font-size: 12px;
+    }
+    .social-links a {
+        font-size: 15px;
+    }
+    .hero1-content .subheading {
+        font-size: 25px;
+    }
+    .btn {
+        font-size: 1.3em;
+    }
+    .blog-section h2 {
+        font-size: 25px;
+    }  
+    .blog-section p{
+        font-size: 18px;
+    }
+    .subtext {
+        font-size: 1.3em;
+    }
+    .blog-content h3 {
+        font-size: 18px;
+        width: 300px;
+    }    
+    .blog-content p {
+        font-size: 15px;
+    }
+    .newsletter input {
+        width: 350px;
+    }
+}
+
+
+
+@media(min-width:992px){
+    .nav{
+        height: 100vh;
+    }
+    .nav-links{
+        display: flex;
+        gap: 40px;
+    }
+    .nav-links a{
+        font-size: 1.2em;
+    }
+    .menu-button{
+        display: none;
+    }
+    .hero-content{
+        width: 50%;
+        padding-top: 70px;
+    }
+    .services-container{
+        margin: 40px;
+    }
+    .service-box{
+        width: 25%;
+    }
+    .container h1 {
+        padding: 0 550px;
+        font-size: 25px;
+    }
+    .container p {
+        padding: 0 400px;
+        font-size: 18px;
+    }
+    .container1{
+        height: 40vh;
+    }
+    .overlay-item{
+        width: 20%;
+    }
+    .card {
+        width: 300px;
+    }
+    .card h2 {
+        font-size: 23px;
+    }
+    .learn-more{
+        font-size: 20px;
+    }
+    .cards-container{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .team-section h2 {
+        font-size: 2em;
+    }  
+    .team-section p {
+        font-size: 1em;
+    }
+    .team-info h3 {
+        font-size: 1.3em;
+    }
+    .team-info p {
+        font-size: 1em;
+    }
+    .social-links a {
+        font-size: 1em;
+    }
+    .hero1-content .subheading {
+        font-size: 20px;
+    }
+    .hero1-content h1{
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 1.1em;
+    }
+    .blog-section h2 {
+        font-size: 2em;
+    }  
+    .subtext {
+        font-size: 1em;
+    }
+    .blog-content h3 {
+        font-size: 1.2em;
+    }    
+    .blog-content p {
+        font-size: 1em;
+    }
+    .footer-content p {
+        font-size: 1em;
+    }
+    .footer-text{
+        font-size: 1em;
+    }
+    .newsletter input {
+        font-size: 0.9em;
+    }
+}
+
+

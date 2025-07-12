@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Webpage</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header bar -->
+    <header class="header bg-dark text-white py-3">
+        <div class="container ">
+            <div class="row d-flex justify-content-between text-center">
+                <div class="col-12 col-md-4">
+                    <i class="bi bi-clock"></i> Week day: <span>08:00 am to 18:00 pm</span>
+                </div>
+                <div class="col-12 col-md-4">
+                    <i class="bi bi-envelope"></i> <a href="mailto:Info.colorlib@gmail.com"
+                        class="text-white">Info.colorlib@gmail.com</a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <i class="bi bi-telephone-fill"></i> <a href="tel:+12345678910" class="text-white">(+12) 345 678
+                        910</a>
+                    <span class="social-icons">
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-google"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img src="./Images/Illustration/logo.webp" alt="" class="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#one">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="one">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CARS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center ms-lg-5">
+                    <a href="#" class="cart-icon text-dark me-3"><i class="bi bi-cart-plus"></i></a>
+                    <a href="#" class="search-icon text-dark me-3"><i class="bi bi-search"></i></a>
+                    <a href="#" class="btn btn-danger px-3">Add Car</a>
+                </div>
+            </div>
+
+            
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-white mb-3">
+                    <h6>FIND YOUR DREAM CAR</h6>
+                    <h1>Porsche Cayenne S</h1>
+                    <span class="badge bg-light text-dark">Model 2019</span>
+                    <h2 class="mt-3">$399/Month</h2>
+                    <div class="mt-4">
+                        <button class="btn btn-danger me-2"><i class="bi bi-car-front-fill"></i> Test Drive</button>
+                        <button class="btn btn-outline-light">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="search-box bg-white p-4">
+                        <ul class="nav nav-tabs" id="searchTabs">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bolder" data-bs-toggle="tab" href="#rentCar">Car Rental</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fw-bolder" data-bs-toggle="tab" href="#buyCar">Buy Car</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content mt-3">
+                            <div class="tab-pane fade show active" id="buyCar">
+                                <h4>Find Your Dream Car</h4>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" placeholder="Select Year">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" placeholder="Select Brand">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" placeholder="Select Model">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" placeholder="Select Mileage">
+                                        </div>
+                                    </div>
+                                    <label class="price-range fw-bold">Price Range : <strong>$800 -
+                                            $3200.100</strong></label>
+                                    <input type="range" class="form-range" min="800" max="3200" step="100">
+                                    <button class="btn btn-danger w-50 mt-3">Searching</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section class="service-section">
+        <div class="container text-center mt-5">
+            <h6 class="text-danger">Our Services</h6>
+            <h2 class="fw-bold">What We Offer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <div class="row mt-5 mb-5">
+                <div class="col-md-6 col-lg-3 text-align-center">
+                    <div class="service-card">
+                        <img src="./Images/Illustration/services-1.png.webp" alt="Rental Cars">
+                        <h4>Rental A Cars</h4>
+                        <p>Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="btn btn-danger arrow">&rarr;</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="./Images/Illustration/services-2.png.webp" alt="Buying Cars">
+                        <h4>Buying A Cars</h4>
+                        <p>Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="btn btn-danger arrow">&rarr;</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="./Images/Illustration/services-3.png.webp" alt="Car Maintenance">
+                        <h4>Car Maintenance</h4>
+                        <p>Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="btn btn-danger arrow">&rarr;</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <img src="./Images/Illustration/services-4.png.webp" alt="Support 24/7">
+                        <h4>Support 24/7</h4>
+                        <p>Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="btn btn-danger arrow">&rarr;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature section -->
+    <section class="feature-section d-flex justify-content-center align-items-center">
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-4 mb-5">
+                    <h6 class="text-danger">Our Feature</h6>
+                    <h2 class="fw-bold">We Are a Trusted Name In Auto</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</p>
+                    <button class="btn btn-danger me-2">About Us</button>
+                    <button class="btn btn-dark">Our Partners</button>
+                </div>
+
+                <div class="col-lg-4 position-relative mb-5">
+                    <img src="./Images/Illustration/feature-car.jpg" alt="" class="img-fluid w-100 h-100">
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <div class="feature-icon">
+                                <img src="./Images/Illustration/feature-1.png" alt="">
+                                <p>Engine</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="feature-icon">
+                                <img src="./Images/Illustration/feature-2.png" alt="">
+                                <p>Turbo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <div class="feature-icon">
+                                <img src="./Images/Illustration/feature-3.png" alt="">
+                                <p>Cooling</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="feature-icon">
+                                <img src="./Images/Illustration/feature-4.png" alt="">
+                                <p>Suspension</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <div class="feature-icon">
+                                <img src="./Images/Illustration/feature-5.png" alt="">
+                                <p>Electrical</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="feature-icon">
+                                <img src="./Images/Illustration/feature-6.png" alt="">
+                                <p>Brakes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our car section -->
+    <section>
+        <div class="container mt-5 text-center">
+            <h6 class="text-danger">Our Car</h6>
+            <h2 class="fw-bold">Best Vehicle Offers</h2>
+            <div class="d-flex justify-content-center mt-3">
+                <a href="#" class="text-decoration-none text-dark fw-bold me-3 border-bottom border-danger">MOST
+                    RESEARCHED</a>
+                <a href="#" class="text-decoration-none text-muted">LATEST ON SALE</a>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2016</span>
+                            <h5>Porsche cayenne turbo s</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="btn btn-primary">For Rent</span>
+                                <span class="text-danger fw-bold">$218/Month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-2.jpg" class="card-img-top" alt="Car 2">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2020</span>
+                            <h5>Toyota camry asv50l-jeteku</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="btn btn-danger">For Sale</span>
+                                <span class="text-danger fw-bold">$73,900</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-3.jpg" class="card-img-top" alt="Car 3">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2017</span>
+                            <h5>Bmw s1000rr 2019 m</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="btn btn-primary">For Rent</span>
+                                <span class="text-danger fw-bold">$299/Month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-4.jpg" class="card-img-top" alt="Car 4">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2019</span>
+                            <h5>Lamborghini huracan evo</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="btn btn-danger">For Sale</span>
+                                <span class="text-danger fw-bold">$120,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-5.jpg" class="card-img-top" alt="Audi q8 2020">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2018</span>
+                            <h5 class="card-title">Audi q8 2020</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn btn-primary">For Rent</button>
+                                <span class="text-danger">$319/Month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-6.jpg" class="card-img-top" alt="Mustang shelby gt500">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2016</span>
+                            <h5 class="card-title">Mustang shelby gt500</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn btn-danger">For Sale</button>
+                                <span class="text-danger">$730,900</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-7.jpg" class="card-img-top" alt="Lamborghini aventador A90">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2020</span>
+                            <h5 class="card-title">Lamborghini aventador A90</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn btn-primary">For Rent</button>
+                                <span class="text-danger">$422/Month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./Images/Illustration/car-8.jpg" class="card-img-top" alt="Porsche cayenne turbo s">
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark">2017</span>
+                            <h5 class="card-title">Porsche cayenne turbo s</h5>
+                            <p>35,000 mi | Auto | 700 hp</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn btn-primary">For Rent</button>
+                                <span class="text-danger">$322/Month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- why choose us section -->
+    <section class="why-choose-us mt-5 w-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Why People Choose Us</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit dolore fugiat nulla pariatur excepteur
+                        sint occaecat cupidatat.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Integer et nisl et massa tempor ornare vel id orci.
+                        </li>
+                        <li><i class="bi bi-check-circle-fill"></i> Nunc consectetur ligula vitae nisl placerat tempus.
+                        </li>
+                        <li><i class="bi bi-check-circle-fill"></i> Curabitur quis ante vitae lacus varius pretium.</li>
+                    </ul>
+                    <a href="#" class="btn btn-danger">About Us</a>
+                </div>
+                <div class="col-md-6 mt-2 position-relative">
+                    <div class="image-container">
+                        <img src="./Images/Illustration/chooseus-iamge.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="blog-section text-center py-5">
+        <h6 class="text-danger">Our Blog</h6>
+        <h2 class="fw-bold">Latest News Updates</h2>
+        <p>Sign up for the latest Automobile Industry information and more. Duis aute irure dolor in reprehenderit.</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Images/Illustration/lb-1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <small class="text-muted">By Polly Williams | Dec 19, 2018 | Comment</small>
+                            <h5 class="card-title">Benjamin Franklin S Method Of Habit Formation</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                            <a href="#" class="text-danger">View More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Images/Illustration/lb-2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <small class="text-muted">By Mattie Ramirez | Dec 19, 2018 | Comment</small>
+                            <h5 class="card-title">How To Set Intentions That <br> Energize You</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                            <a href="#" class="text-danger">View More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Images/Illustration/lb-3.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <small class="text-muted">By Nicholas Brewer | Dec 19, 2018 | Comment</small>
+                            <h5 class="card-title">Burning Desire Golden Key Or Red Herring</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                            <a href="#" class="text-danger">View More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- car buy/Rent Section -->
+    <section class="car-buy-rent">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card bg-dark text-white overlay-card">
+                        <img src="./Images/Illustration/cta-1.jpg" class="card-img" alt="">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center text-center">
+                            <h4 class="card-title fw-bolder">Do You Want To Buy A Car</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bg-dark text-white overlay-card">
+                        <img src="./Images/Illustration/cta-2.jpg" class="card-img" alt="">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center text-center">
+                            <h4 class="card-title fw-bolder">Do You Want To Rent A Car</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="contact-section">
+        <div class="container mt-5 pt-3">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h2 class="text-white mb-3">Contact Us Now!</h2>
+                </div>
+                <div class="col-md-6 d-flex mb-3">
+                    <button class="btn btn-danger me-2"><i class="fas fa-phone-alt"></i> (+12) 345 678
+                        910</button>
+                    <button class="btn btn-light"><i class="fas fa-envelope"></i>
+                        Colorlib@gmail.com</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <img src="./Images/Illustration/footer-logo.png" alt="" class="me-2 mb-4">
+                        <p class="text-white">Any questions? Let us know in store at 625 Gloria Union, California,
+                            United States or call us on (+1) 96123 8888</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-google"></i></a>
+                            <a href="#"><i class="bi bi-skype"></i></a>
+                        </div>
+                        <p class="text-white mt-3">Copyright &copy;2025 All rights reserved | This template is made with
+                            <span class="text-danger">❤</span> by Colorlib
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-white mt-5">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5>Information</h5>
+                            <ul class="footer-list">
+                                <li>Purchase</li>
+                                <li>Payment</li>
+                                <li>Shipping</li>
+                                <li>Return</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Information</h5>
+                            <ul class="footer-list">
+                                <li>Hatchback</li>
+                                <li>Sedan</li>
+                                <li>SUV</li>
+                                <li>Crossover</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Top Brand</h5>
+                            <ul class="footer-list">
+                                <li>Abarth</li>
+                                <li>Acura</li>
+                                <li>Alfa Romeo</li>
+                                <li>Audi</li>
+                                <li>BMW</li>
+                                <li>Chevrolet</li>
+                                <li>Ferrari</li>
+                                <li>Honda</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header bar */
+.header {
+    font-size: 14px;
+}
+.header a {
+    text-decoration: none;
+}
+.header .social-icons a {
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+/* navbar */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.navbar-nav .nav-link.active {
+    color: #d9534f;
+    border-bottom: 2px solid #d9534f;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(../Images/Background/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* service section */
+.service-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.service-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+.service-card h4 {
+    font-weight: bold;
+}
+.service-card p {
+    color: #666;
+}
+.service-card .arrow {
+border-radius: 50%;
+}
+
+/* feature section */
+.feature-section{
+    height: auto;
+    background-color: #f8f4f4;
+}
+.check-list {
+    list-style: none;
+}
+.check-list li i {
+    color: red;
+    margin-right: 5px;
+}
+
+/* car buy/rent section */
+.car-buy-rent .card-img{
+    opacity: 0.4;
+}
+
+/* footer */
+.contact-section {
+    background: url(../Images/Background/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-white ul {
+    list-style: none;
+}
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #ff4d4d;
+}
+.footer-list{
+    color: #938f8f;
+}
